@@ -1,0 +1,118 @@
+{
+    "key": "group_5c1b036cd13b8",
+    "title": "Configurações do tema",
+    "fields": [
+        {
+            "key": "field_5c1b0380a3c46",
+            "label": "",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "<h1>Quais recursos gostaria de ativar no seu site?<\/h1>",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_5c1b03a4a3c47",
+            "label": "Notícias",
+            "name": "yeti_config_load_noticias",
+            "type": "true_false",
+            "instructions": "Habilita uma área de gerência de notícias.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5c1b040016b9e",
+            "label": "Cursos",
+            "name": "yeti_config_load_cursos",
+            "type": "true_false",
+            "instructions": "Habilita uma área de gerência de cursos.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5c1b041c16b9f",
+            "label": "Atrações",
+            "name": "yeti_config_load_atracoes",
+            "type": "true_false",
+            "instructions": "Habilita uma área de gerência de atrações.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5c1b042616ba0",
+            "label": "Inscrições",
+            "name": "yeti_config_load_inscricoes",
+            "type": "true_false",
+            "instructions": "Habilita uma área de gerência de inscrições.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "yeti-bootstrap-settings"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1658406197
+}

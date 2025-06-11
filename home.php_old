@@ -1,0 +1,472 @@
+<?php
+
+/**
+ * Template Name: Home
+ */
+
+get_header(); ?>
+
+<main role="main">
+
+  <!-- slider-1 v2 -->
+  <section class="slider-1 v2 my-5">
+    <div class="container">
+      <div class="row position-relative">
+        <div class="col-12">
+          <ul class="slider owl-carousel">
+
+            <li>
+              <div class="slider-content h-100">
+                <div class="container-fluid h-100">
+                  <div class="row h-100">
+                    <div class="col-lg-12 col-12 d-flex align-items-center p-0 slider-bg2 position-relative order-lg-2 order-1">
+                      <img src="/wp-content/themes/yeti-bootstrap/assets/img/slider-img-04.webp" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="slider-content h-100">
+                <div class="container-fluid h-100">
+                  <div class="row h-100">
+                    <div class="col-lg-12 col-12 d-flex align-items-center p-0 slider-bg2 position-relative order-lg-2 order-1">
+                      <img src="/wp-content/themes/yeti-bootstrap/assets/img/slider-img-01.jpg" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="slider-content h-100">
+                <div class="container-fluid h-100">
+                  <div class="row h-100">
+                    <div class="col-lg-12 col-12 d-flex align-items-center p-0 slider-bg2 position-relative order-lg-2 order-1">
+                      <img src="/wp-content/themes/yeti-bootstrap/assets/img/slider-img-02.jpg" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="slider-content h-100">
+                <div class="container-fluid h-100">
+                  <div class="row h-100">
+                    <div class="col-lg-12 col-12 d-flex align-items-center p-0 slider-bg2 position-relative order-lg-2 order-1">
+                      <img src="/wp-content/themes/yeti-bootstrap/assets/img/slider-img-03.jpg" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+        <div class="slider-info">
+          <div class="bg-opacity-75 bg-dark rounded-3 p-5 text-white text-md-end text-center">
+            <h3 class="fw-light lh-1 mb-3 text-white">Solução em painéis moderno</h3>
+            <p class="fw-light lh-2 mb-4">Os painéis de PVC são um dos maiores coadjuvantes de nosso portfólio, perfeitamente adequados tanto para o teto quanto para as paredes dos mais diversos espaços.</p>
+            <a href="#" class="y-buttons-btn btn btn-primary text-white border-0 px-5 btn-over">Conheça nossos produtos</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- carousel-2 -->
+  <section class="carousel-2 nav-lateral produtos">
+    <div class="container">
+      <div class="y-header">
+        <h2 class="text-center fw-light">Diversas linhas de produtos<br>
+          com a ampla <strong class="fw-bold text-red">versatilidade do PVC e WPC</strong>.</h2>
+        <p class="y-header-text">Oferecemos uma alternativa moderna e ecologicamente correta para tornar seus<br> ambientes ainda mais encantadores.</p>
+      </div>
+
+      <div class="row">
+
+        <!-- Categoria -->
+        <div class="col-12 col-lg-4">
+          <h5 class="text-red text-center m-0 mb-4">Alto Brilho</h5>
+          <div class="itens owl-carousel row">
+
+            <?php
+            $posts = yb_get_posts_cpt(
+              'produto', // cpt
+              3, // limite
+              '', // categoria
+              '', // id da categoria
+              '', // ordem
+              'DESC', // ordem por - DESc ou ASC
+              '', // meta
+              '', // meta_value
+              '', // autor
+              '', // include - array de ID's
+              '', // exclude - array de ID's
+              $paged, // paged
+              '', // offset
+              1, //  ignore_sticky - 0 ou 1
+              array(
+                'taxonomy' => 'categoria', // nome da taxonomia personalizada
+                'field'    => 'slug', // term_id, slug ou name (Define por o que você irá pesquisar usando o termo abaixo)    
+                'terms'    => 'alto-brilho', // informe o termo ou ID
+                'include_children' => false
+              )
+            );
+
+            $i = 0;
+            foreach ($posts as $post) :
+              //$url = get_permalink($post->ID);
+              $url = "javascript:void(0);";
+            ?>
+              <a href="<?php echo $url; ?>" class="text-decoration-none">
+                <div class="h-100 item w-100">
+                  <div class="">
+                    <?php
+                    if (has_post_thumbnail()) {
+                      the_post_thumbnail('yeti-thumb', ['class' => 'produto-img attachment-thumbnail wp-post-image img-fluid', 'title' => $post->post_title]);
+                    }
+                    ?>
+                  </div>
+                  <div class="mt-2">
+                    <p class="text-center"><?php echo $post->post_title; ?></p>
+                  </div>
+                </div>
+              </a>
+
+
+            <?php
+              $i++;
+            endforeach;
+            // Reset Query
+            wp_reset_query();
+            ?>
+
+          </div>
+        </div>
+        <!-- ./Categoria -->
+
+        <!-- Categoria -->
+        <div class="col-12 col-lg-4">
+          <h5 class="text-red text-center m-0 mb-4">Fosco Rústico</h5>
+          <div class="itens owl-carousel row">
+
+            <?php
+            $posts = yb_get_posts_cpt(
+              'produto', // cpt
+              3, // limite
+              '', // categoria
+              '', // id da categoria
+              '', // ordem
+              'DESC', // ordem por - DESc ou ASC
+              '', // meta
+              '', // meta_value
+              '', // autor
+              '', // include - array de ID's
+              '', // exclude - array de ID's
+              $paged, // paged
+              '', // offset
+              1, //  ignore_sticky - 0 ou 1
+              array(
+                'taxonomy' => 'categoria', // nome da taxonomia personalizada
+                'field'    => 'slug', // term_id, slug ou name (Define por o que você irá pesquisar usando o termo abaixo)    
+                'terms'    => 'fosco-rustico', // informe o termo ou ID
+                'include_children' => false
+              )
+            );
+
+            $i = 0;
+            foreach ($posts as $post) :
+              $data = get_the_date('d/m/Y', $post->ID);
+              if (has_excerpt()) {
+                $resumo = wp_trim_words(get_the_excerpt(), 20, '...');
+              } else {
+                $resumo = wp_trim_words($post->post_content, 20, '...');
+              }
+              //$url = get_permalink($post->ID);
+              $url = "javascript:void(0);";
+            ?>
+              <a href="<?php echo $url; ?>" class="text-decoration-none">
+                <div class="h-100 w-100 item">
+                  <div class="">
+                    <?php
+                    if (has_post_thumbnail()) {
+                      the_post_thumbnail('yeti-thumb', ['class' => 'produto-img attachment-thumbnail wp-post-image img-fluid', 'title' => $post->post_title]);
+                    }
+                    ?>
+                  </div>
+                  <div class="mt-2">
+                    <p class="text-center"><?php echo $post->post_title; ?></p>
+                  </div>
+                </div>
+              </a>
+
+
+            <?php
+              $i++;
+            endforeach;
+            // Reset Query
+            wp_reset_query();
+            ?>
+
+          </div>
+        </div>
+        <!-- ./Categoria -->
+
+        <!-- Categoria -->
+        <div class="col-12 col-lg-4">
+          <h5 class="text-red text-center m-0 mb-4">Painel ripado</h5>
+          <div class="itens owl-carousel row">
+
+            <?php
+            $posts = yb_get_posts_cpt(
+              'produto', // cpt
+              3, // limite
+              '', // categoria
+              '', // id da categoria
+              '', // ordem
+              'DESC', // ordem por - DESc ou ASC
+              '', // meta
+              '', // meta_value
+              '', // autor
+              '', // include - array de ID's
+              '', // exclude - array de ID's
+              $paged, // paged
+              '', // offset
+              1, //  ignore_sticky - 0 ou 1
+              array(
+                'taxonomy' => 'categoria', // nome da taxonomia personalizada
+                'field'    => 'slug', // term_id, slug ou name (Define por o que você irá pesquisar usando o termo abaixo)    
+                'terms'    => 'painel-ripado', // informe o termo ou ID
+                'include_children' => false
+              )
+            );
+
+            $i = 0;
+            foreach ($posts as $post) :
+              $data = get_the_date('d/m/Y', $post->ID);
+              if (has_excerpt()) {
+                $resumo = wp_trim_words(get_the_excerpt(), 20, '...');
+              } else {
+                $resumo = wp_trim_words($post->post_content, 20, '...');
+              }
+              //$url = get_permalink($post->ID);
+              $url = "javascript:void(0);";
+            ?>
+              <a href="<?php echo $url; ?>" class="text-decoration-none">
+                <div class="h-100 w-100 item">
+                  <div class="">
+                    <?php
+                    if (has_post_thumbnail()) {
+                      the_post_thumbnail('yeti-thumb', ['class' => 'produto-img attachment-thumbnail wp-post-image img-fluid', 'title' => $post->post_title]);
+                    }
+                    ?>
+                  </div>
+                  <div class="mt-2">
+                    <p class="text-center"><?php echo $post->post_title; ?></p>
+                  </div>
+                </div>
+              </a>
+
+
+            <?php
+              $i++;
+            endforeach;
+            // Reset Query
+            wp_reset_query();
+            ?>
+
+          </div>
+        </div>
+        <!-- ./Categoria -->
+
+        <div class="col-12 mt-5 text-center">
+          <a href="/produtos" class="y-buttons-btn btn btn-primary px-5">Conheça nossa linha completa</a>
+        </div>
+
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- hero-1 -->
+  <section class="hero-1 sticky-hero js-sticky-hero">
+    <div class="sticky-hero__media sticky-hero--scale sticky-hero--overlay rounded-3 mx-2" aria-hidden="true"></div>
+
+    <div class="sticky-hero__content">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 p-5">
+            <div class="y-block text-center">
+              <h2 class="fw-light"><strong class="fw-bold">Projetos premiados</strong>​ dão testemunho do nosso<br> compromisso com a excelência.</h2>
+              <p class="y-header-text">Ao receber reconhecimento por inovação e liderança, fortalecemos nossa posição<br> e inspiramos continuamente nossa equipe a alcançar novos patamares.</p>
+              <p class="mt-5"><a href="#" class="y-buttons-btn btn btn-primary px-5">Conheça nossos produtos</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- .content-29 -->
+  <section class="content-29" id="empresa">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 position-relative">
+          <img src="/wp-content/themes/yeti-bootstrap/assets/img/empresa-ornamento.png" class="empresa-ornamento">
+          <div class="card border-0 rounded-3 p-0  overflow-hidden">
+            <div class="row g-0">
+              <div class="col-lg-5 col-12">
+                <div class="card-body p-5">
+                  <div class="text-center text-lg-start text-white">
+
+                    <h3 class="text-white mb-3 fw-light">Empresa com sede em Belém​​​​</h3>
+                    <p class="mb-0">Somos sediados em Belém do Pará que se destaca como um exemplo de sucesso ao integrar práticas comerciais inovadoras com um compromisso inabalável com a sustentabilidade e responsabilidade social.</p>
+                    <a href="#" class="btn btn-light px-5 mt-5 bg-white">Saiba mais</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-7 col-12 d-none d-lg-block content-29-bg" style="background-image: url('/wp-content/themes/yeti-bootstrap/assets/img/empresa-img.jpg');">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ./content-29 -->
+
+
+  <section class="clients-7 carousel-3 nav-lateral pt-0">
+    <div class='container px-4'>
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-3 col-12">
+          <div class="y-block mb-5 mb-lg-0">
+            <h3 class="mb-4 fw-light text-center text-lg-start">O que nossos clientes falam sobre nossos produtos</h3>
+          </div>
+        </div>
+        <div class="col-lg-8 offset-lg-1 offset-0 col-12">
+
+          <div class="itens owl-carousel row">
+
+            <?php
+            // Recupera as notícias com os argumentos básicos
+            if (get_query_var('paged')) {
+              $paged = get_query_var('paged');
+            } elseif (get_query_var('page')) {
+              $paged = get_query_var('page');
+            } else {
+              $paged = 1;
+            }
+
+            $posts = yb_get_posts_cpt(
+              'depoimento', // cpt
+              -1, // limite
+              '', // categoria
+              '', // id da categoria
+              '', // ordem
+              'DESC', // ordem por - DESc ou ASC
+              '', // meta
+              '', // meta_value
+              '', // autor
+              '', // include - array de ID's
+              '', // exclude - array de ID's
+              $paged, // paged
+              '', // offset
+              0, //  ignore_sticky - 0 ou 1
+              /*
+        array(
+          'taxonomy' => '', // nome da taxonomia personalizada
+          'field'    => '', // term_id, slug ou name (Define por o que você irá pesquisar usando o termo abaixo)    
+          'terms'    => '', // informe o termo ou ID
+        )
+        */
+            );
+
+            $i = 0;
+            foreach ($posts as $post) :
+            ?>
+
+              <div class="card shadow-sm" style="min-height: 270px;">
+                <div class="card-body">
+                  <p class="card-text"><i class="fa-solid fa-quote-left me-1 opacity-50"></i><?php echo $post->post_content; ?><i class="fa-solid fa-quote-right ms-1 opacity-50"></i></p>
+                </div>
+                <div class="card-footer p-3 bg-white border-0">
+                  <div class="d-flex align-items-center">
+                    <div class="flex-shrink-0">
+                      <?php
+                      if (has_post_thumbnail()) {
+                        the_post_thumbnail('thumbnail', ['class' => 'card-img-top attachment-thumbnail wp-post-image img-fluid rounded-circle', 'title' => $post->post_title]);
+                      }
+                      ?>
+                    </div>
+                    <div class="flex-grow-1 ms-2 lh-sm">
+                      <p class="mb-0 fw-bold text-primary"><?php echo $post->post_title; ?></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <?php
+              $i++;
+            endforeach;
+            ?>
+
+
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="clients-3 bg-light py-5">
+    <div class='container px-4'>
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-3 col-12">
+          <div class="y-block mb-5 mb-lg-0">
+            <h3 class="mb-0 fw-light text-center text-lg-start">Nossos parceiros</h3>
+          </div>
+        </div>
+        <div class="col-lg-9 col-12">
+          <div class="row gy-3">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="text-center bg-light rounded-3 p-0">
+                <img src="/wp-content/themes/yeti-bootstrap/assets/img/parceiro-01.png?v2" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="text-center bg-light rounded-3 p-0">
+                <img src="/wp-content/themes/yeti-bootstrap/assets/img/parceiro-02.png?v2" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="text-center bg-light rounded-3 p-0">
+                <img src="/wp-content/themes/yeti-bootstrap/assets/img/parceiro-03.png?v2" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="text-center bg-light rounded-3 p-0">
+                <img src="/wp-content/themes/yeti-bootstrap/assets/img/parceiro-04.png?v2" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </section>
+
+
+</main>
+
+<?php get_footer(); ?>

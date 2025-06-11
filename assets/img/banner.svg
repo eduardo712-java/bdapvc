@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="990" height="300" viewBox="0 0 990 300">
+  <defs>
+    <clipPath id="clip-custom_1">
+      <rect width="990" height="300"/>
+    </clipPath>
+  </defs>
+  <g id="custom_1" data-name="custom – 1" clip-path="url(#clip-custom_1)">
+    <rect width="990" height="300" fill="#fff"/>
+    <g id="Grupo_1" data-name="Grupo 1" transform="translate(0 27)">
+      <text id="Ofertas" transform="translate(495 122)" fill="#333" font-size="50" font-family="GothamRounded-Bold, Gotham Rounded" font-weight="700"><tspan x="-94.05" y="0">Ofertas</tspan></text>
+      <text id="_990_x_300px" data-name="990 x 300px" transform="translate(495 165)" fill="#707070" font-size="30" font-family="GothamRounded-Book, Gotham Rounded"><tspan x="-96.48" y="0">990 x 300px</tspan></text>
+    </g>
+  </g>
+</svg>

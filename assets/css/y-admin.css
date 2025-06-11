@@ -1,0 +1,59 @@
+/*
+ * Estilos personalizados para o Painel de Controle do WP.
+ */
+
+/*
+.ui-sortable-handle span {
+    font-size: 30px;
+    font-weight: bold;
+}
+.acf-field-message .acf-label label  {
+    font-size: 25px;
+    color: #888;
+    font-weight: normal;
+}
+*/
+.w-100 {
+    width: 100%;
+}
+#adminmenu #menu-posts,
+body.post-type-cliente #wpfront-user-role-editor-role-permissions,
+body.post-type-cliente #misc-publishing-actions,
+body.post-type-cliente #minor-publishing-actions,
+body.post-type-cliente #screen-meta-links,
+body.post-type-cliente #wpfooter {
+    display: none !important;
+}
+
+/* -----------------------------------------------------
+ *  ROTAS
+/* ----------------------------------------------------- */
+body.taxonomy-rota .form-field.term-slug-wrap,
+body.taxonomy-rota .form-field.acf-field.acfe-bt-no-label,
+body.taxonomy-rota .form-field.term-parent-wrap {
+    display: none !important;
+}
+/* body.taxonomy-rota .form-field.term-name-wrap #name-description{
+    display: none !important;
+}
+body.taxonomy-rota .form-field.term-name-wrap .acf-input:after{
+    display: block;
+    content: "Informe a letra que irá representar a Rota.";
+    color: #646970;
+}
+body.taxonomy-rota .form-field.term-description-wrap #description-description{
+    display: none !important;
+}
+body.taxonomy-rota .form-field.term-description-wrap .acf-input:after{
+    display: block;
+    content: "Informe a origem e o destino final da nova Rota.";
+    color: #646970;
+} */
+
+
+/* -----------------------------------------------------
+ *  PEDIDOS
+/* ----------------------------------------------------- */
+body.post-type-pedido #newrota_parent {
+    display: none !important;
+}

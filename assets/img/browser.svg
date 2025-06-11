@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1202" height="677" viewBox="0 0 1202 677">
+  <g id="browser" transform="translate(-95 -1906)">
+    <rect id="canva" width="1200" height="675" rx="4" stroke-width="2" fill="#fff" stroke="#424b5a" stroke-miterlimit="10" transform="translate(96 1907)"/>
+    <path id="header" d="M4,0H1194a4,4,0,0,1,4,4V24a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V4A4,4,0,0,1,4,0Z" transform="translate(97 1908)" fill="#f2f5f7"/>
+    <rect id="header-line" width="1200" height="2" transform="translate(96 1932)" fill="#424b5a"/>
+    <g id="img" transform="translate(332.602 15.03)">
+      <g id="icon" transform="translate(335.398 2222.97)">
+        <path id="Exclusão_12" data-name="Exclusão 12" d="M56.354,39.471H.849A.855.855,0,0,1,0,38.612V.858A.855.855,0,0,1,.849,0h55.5A.855.855,0,0,1,57.2.858V38.612A.855.855,0,0,1,56.354,39.471Zm-43.9-19.649L1.742,30.962,1.7,37.754H29.707L12.457,19.822Zm0-2.078a.847.847,0,0,1,.61.249l19.01,19.761H55.5V31.41a.827.827,0,0,1-.328-.211L39.963,15.252,27.514,28.3a.834.834,0,0,1-.611.263.843.843,0,0,1-.59-.241.864.864,0,0,1-.022-1.213L39.351,13.42a.868.868,0,0,1,1.224,0L55.5,29.071V1.716H1.7V28.543l10.149-10.55A.847.847,0,0,1,12.457,17.744Z" transform="translate(0 0)" fill="#424b5a"/>
+        <path id="Subtração_10" data-name="Subtração 10" d="M5.1,10.3A5.149,5.149,0,0,1,5.1,0a5.149,5.149,0,0,1,0,10.3Zm0-8.581A3.433,3.433,0,1,0,8.5,5.148,3.419,3.419,0,0,0,5.1,1.716Z" transform="translate(19.257 8.009)" fill="#424b5a"/>
+      </g>
+    </g>
+    <g id="buttons">
+      <circle id="Elipse_6" data-name="Elipse 6" cx="4" cy="4" r="4" transform="translate(105 1916)" fill="#424b5a"/>
+      <circle id="Elipse_7" data-name="Elipse 7" cx="4" cy="4" r="4" transform="translate(117 1916)" fill="#424b5a"/>
+      <circle id="Elipse_8" data-name="Elipse 8" cx="4" cy="4" r="4" transform="translate(129 1916)" fill="#424b5a"/>
+    </g>
+  </g>
+</svg>

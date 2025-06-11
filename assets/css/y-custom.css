@@ -1,0 +1,445 @@
+/* =============================
+ * Estilos personalizados. 
+ * ============================= */
+
+:root {
+    --primary: #FF4D00;
+    --primary-dark: #da4403;
+}
+
+/* -----------------------------------------------------
+  *  HTML
+ /* ----------------------------------------------------- */
+body {
+    padding-top: 0px;
+}
+
+section {
+    padding: 100px 0px;
+}
+
+
+/* -----------------------------------------------------
+ *  YETI BOOTSTRAP
+/* ----------------------------------------------------- */
+#menu-3 .bar-right .item:first-of-type {
+    margin-bottom: 0px !important;
+}
+
+.slider-1.v2,
+.slider-1.v2 .owl-carousel .owl-item li {
+    list-style-type: none;
+    /* height: 600px; */
+    height: auto;
+}
+
+/* .slider-1.v2 .slider-info>div {
+    position: absolute;
+    bottom: 50px;
+    z-index: 100;
+    right: 50px;
+    width: 570px;
+} */
+.slider-1.v2 .slider-info>div {
+    position: relative;
+    width: 100%;
+}
+
+.slider-1.v2 .owl-nav {
+    /* left: 80px; */
+}
+
+.slider-1.v2 .owl-carousel .owl-item li .slider-bg {
+    height: auto;
+    background-position: top center !important;
+    background-size: contain !important;
+}
+
+.carousel-2.nav-lateral .owl-nav [class*="owl-"] i,
+.carousel-produtos.nav-lateral .owl-nav [class*="owl-"] i {
+    background-color: transparent !important;
+    color: #FF4D00 !important;
+    font-size: 30px !important;
+}
+
+.owl-carousel .owl-nav.disabled {
+    display: block;
+}
+
+.text-red {
+    color: var(--primary);
+}
+
+.bg-orange {
+    background: rgb(255, 77, 0);
+    background: -moz-linear-gradient(45deg, rgba(255, 77, 0, 1) 0%, rgba(255, 182, 88, 1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(255, 77, 0, 1) 0%, rgba(255, 182, 88, 1) 100%);
+    background: linear-gradient(45deg, rgba(255, 77, 0, 1) 0%, rgba(255, 182, 88, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff4d00", endColorstr="#ffb658", GradientType=1);
+}
+
+.bg-gray {
+    background-color: #B6B6B6;
+}
+
+.bg-gray-gradient {
+    background: rgb(182, 182, 182);
+    background: -moz-linear-gradient(90deg, rgba(182, 182, 182, 1) 0%, rgba(182, 182, 182, 0) 85%);
+    background: -webkit-linear-gradient(90deg, rgba(182, 182, 182, 1) 0%, rgba(182, 182, 182, 0) 85%);
+    background: linear-gradient(180deg, rgba(182, 182, 182, 1) 0%, rgba(182, 182, 182, 0) 85%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b6b6b6", endColorstr="#ffffff", GradientType=1);
+}
+
+/* -----------------------------------------------------
+ *  MENU
+/* ----------------------------------------------------- */
+.navbar-nav>li>.dropdown-menu {
+    padding: 0px 0px;
+    margin: 10px 0px 0px 5px;
+     border: none;
+}
+#menu-3 {
+    background: rgb(255, 77, 0);
+    background: -moz-linear-gradient(41deg, rgba(255, 77, 0, 1) 0%, rgba(255, 182, 88, 1) 100%);
+    background: -webkit-linear-gradient(41deg, rgba(255, 77, 0, 1) 0%, rgba(255, 182, 88, 1) 100%);
+    background: linear-gradient(41deg, rgba(255, 77, 0, 1) 0%, rgba(255, 182, 88, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff4d00", endColorstr="#ffb658", GradientType=1);
+    padding-top: 10px;
+    padding-bottom: 30px;
+    transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -o-transition: all 0.4s ease-in-out 0s;
+}
+
+#menu-3 ul li a {
+    color: #ffffff;
+}
+#menu-3 ul li ul.dropdown-menu li a {
+    color: #212529;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#menu-3 .navbar-brand img {
+    transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -o-transition: all 0.4s ease-in-out 0s;
+}
+
+#menu-3 .navbar-toggler {
+    border: solid 1px #FFF;
+}
+#menu-3 #menu-representantes {
+    color: #FFFFFF !important;
+}
+
+
+/* -----------------------------------------------------
+ *  SLIDER
+/* ----------------------------------------------------- */
+.slider-1 {
+    margin-top: -20px !important;
+}
+.slider-1.v2 .owl-carousel .owl-stage-outer {
+     border-radius: 0px;
+}
+
+
+/* -----------------------------------------------------
+ *  PRODUTOS
+/* ----------------------------------------------------- */
+.produtos .produto-img {
+    width: auto !important;
+}
+
+.produtos.nav-lateral .owl-nav .owl-next {
+    right: 30px !important;
+}
+
+.produtos.nav-lateral .owl-nav .owl-prev {
+    left: 30px !important;
+}
+
+.carousel-2 .owl-stage-outer {
+    padding: 0px 0px 20px 0px !important;
+}
+.carousel-2 .col-12.col-lg-4 h5 {
+    margin-left: -19px !important;
+}
+
+.carousel-produtos .owl-stage-outer {
+    padding: 0px 0px 20px 0px !important;
+}
+
+
+/* -----------------------------------------------------
+ *  DEPOIMENTOS
+/* ----------------------------------------------------- */
+.clients-5 .rounded-circle,
+.clients-7 .rounded-circle {
+    width: 50px !important;
+    height: auto;
+}
+
+/* -----------------------------------------------------
+ *  PROJETOS
+/* ----------------------------------------------------- */
+.hero-1 .sticky-hero__media {
+    background: url(../img/projetos-img-01.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.hero-1.sticky-hero--media-is-fixed .sticky-hero--overlay.sticky-hero__media::after {
+    opacity: 0.6;
+}
+
+
+/* -----------------------------------------------------
+ *  EMPRESA
+/* ----------------------------------------------------- */
+#empresa .card-body {
+    background: rgb(255, 77, 0);
+    background: -moz-linear-gradient(45deg, rgba(255, 77, 0, 1) 0%, rgba(255, 182, 88, 1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(255, 77, 0, 1) 0%, rgba(255, 182, 88, 1) 100%);
+    background: linear-gradient(45deg, rgba(255, 77, 0, 1) 0%, rgba(255, 182, 88, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff4d00", endColorstr="#ffb658", GradientType=1);
+}
+
+#empresa .empresa-ornamento {
+    position: absolute;
+    top: -25px;
+    z-index: 100;
+    left: 35px;
+}
+
+
+/* -----------------------------------------------------
+ *  PRODUTOS
+/* ----------------------------------------------------- */
+#poliestireno .ornamento {
+    position: absolute;
+    top: 526px;
+    margin-left: 15%;
+}
+
+
+/* -----------------------------------------------------
+ *  PEDIDO
+/* ----------------------------------------------------- */
+.btn-print {
+    position: absolute;
+    top: 0px;
+    right: 15px;
+}
+
+.page-template-template-usuario-content-create .acf-form-submit {
+    margin-top: 80px;
+}
+
+.page-template-template-usuario-content-create .pedido-total {
+    position: absolute;
+    right: 35px;
+    margin-top: -110px;
+    background-color: #EEE;
+    padding: 10px 30px !important;
+    border-radius: 4px;
+}
+
+
+/* -----------------------------------------------------
+ *  CONTATO
+/* ----------------------------------------------------- */
+.contact-2 .box {
+
+    width: 40%;
+}
+
+/* -----------------------------------------------------
+ *  USER
+/* ----------------------------------------------------- */
+#user-menu {
+    top: 20px;
+}
+
+
+/* -----------------------------------------------------
+ *  FOOTER
+/* ----------------------------------------------------- */
+#footer-1 .footer-content {
+    background: rgb(255, 77, 0);
+    background: -moz-linear-gradient(41deg, rgba(255, 77, 0, 1) 0%, rgba(255, 182, 88, 1) 100%);
+    background: -webkit-linear-gradient(41deg, rgba(255, 77, 0, 1) 0%, rgba(255, 182, 88, 1) 100%);
+    /* background: linear-gradient(41deg, rgba(255, 77, 0, 1) 0%, rgba(255, 182, 88, 1) 100%); */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff4d00", endColorstr="#ffb658", GradientType=1);
+    background-image: url(/wp-content/themes/yeti-bootstrap/assets/img/footer-bg.png), linear-gradient(41deg, rgba(255, 77, 0, 1) 0%, rgba(255, 182, 88, 1) 100%);
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+
+/* -----------------------------------------------------
+ *  HEADER
+/* ----------------------------------------------------- */
+.header-1 {
+    background-image: url(/wp-content/themes/yeti-bootstrap/assets/img/slider-img-01.jpg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: var(--primary);
+    padding: 0px;
+    margin: -20px 10px 0px 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    z-index: 100;
+    position: relative;
+}
+
+.header-1.produtos {
+    background-image: url(/wp-content/themes/yeti-bootstrap/assets/img/slider-img-02.jpg);
+}
+
+
+/* ======================================================================
+ * ACF
+ * ====================================================================== */
+.acf-fields>.acf-field {
+    padding: 0px 12px 5px 12px !important;
+    border: none !important;
+    margin-bottom: 5px !important;
+}
+
+.acf-field .acf-label {
+    margin: 0 0 5px;
+}
+
+.acf-field .acf-label label {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.acf-table>thead>tr>th {
+    font-size: 14px;
+}
+
+.filter.-add-post {
+    width: 140px !important;
+    font-size: 14px;
+    padding: 6px 5px;
+}
+
+.acf-fields>.acf-field.acf-field--post-title {
+    overflow: hidden;
+}
+
+.acf-fields>.acf-field.acf-field--post-title .acf-label label {
+    margin-left: -100px !important;
+}
+
+.acf-fields>.acf-field.acf-field--post-title .acf-label label:after {
+    display: block;
+    content: "Razão Social";
+    width: 100px;
+    height: 21px;
+    color: #000;
+    z-index: 100;
+    position: relative;
+    margin-left: 100px;
+    margin-top: -21px;
+}
+
+.select2-container .select2-selection--single {
+    height: 34px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 34px !important;
+}
+
+.select2-container.-acf .select2-selection {
+    border-color: #bbb !important;
+}
+
+#wpfront-user-role-editor-role-permissions #wpfooter {
+    display: none !important;
+}
+
+.acf-fields>.acf-field.acf-field-6748c416d48de {
+    margin-bottom: 30px !important;
+}
+
+
+/* =============================
+ * Regras de responsividade.
+ * ============================= */
+
+/* Dispositivos grandes (desktops, menores que 1200px) */
+@media (max-width: 1199.98px) {}
+
+
+/* Dispositivos medianos (tablets, menores que 992px) */
+@media (max-width: 991.98px) {
+    #menu-3 .navbar-brand img {
+        height: 30px;
+        width: auto;
+        margin: 0px 0px 0px 0px;
+    }
+
+    #menu-3 {
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    .content-28 .content-28-img {
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
+    .contact-2 .box {
+        width: calc(100% - 50px);
+        left: 25px;
+        height: calc(50% - 40px) !important;
+        bottom: 25px;
+        top: auto;
+        font-size: 14px;
+    }
+
+    .slider-1.v2 .slider-info>div {
+        /* width: calc(100% - 100px); */
+        width: 100%;
+        margin-top: 20px;
+        position: relative;
+        bottom: auto;
+        right: auto;
+    }
+}
+
+
+/* Dispositivos pequenos (smartphones na horizontal, menores que 768px) */
+@media (max-width: 767.98px) {
+    .slider-1.v2 .slider-info>div {
+        /* width: calc(100% - 100px); */
+        width: 100%;
+        margin-top: 20px;
+        position: relative;
+        bottom: auto;
+        right: auto;
+    }
+
+
+    /* -----------------------------------------------------
+     *  ACF
+    /* ----------------------------------------------------- */
+    .acf-field-6732a621a4402,
+    .acf-field-6732a4be87443 {
+        width: 100% !important;
+    }
+
+}
+
+
+/* Dispositivos extra pequenos (smartphones na vertical, menores que 576px) */
+@media (max-width: 575.98px) {}

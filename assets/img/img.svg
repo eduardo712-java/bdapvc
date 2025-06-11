@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="400" viewBox="0 0 1440 400">
+  <g id="img" transform="translate(-304 -354)">
+    <rect id="color" width="1440" height="400" transform="translate(304 354)" fill="none"/>
+    <g id="icons" transform="translate(304 354)">
+      <g id="Icon_feather-layers" data-name="Icon feather-layers" transform="translate(237.232 337.451)">
+        <path id="Caminho_358" data-name="Caminho 358" d="M14.8,3,3,8.9l11.8,5.9L26.6,8.9Z" transform="translate(-3 -3)" fill="none" stroke="#777" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Caminho_359" data-name="Caminho 359" d="M3,25.5l11.8,5.9,11.8-5.9" transform="translate(-3 -7.802)" fill="none" stroke="#777" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Caminho_360" data-name="Caminho 360" d="M3,18l11.8,5.9L26.6,18" transform="translate(-3 -6.201)" fill="none" stroke="#777" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Icon_feather-copy" data-name="Icon feather-copy" transform="translate(1281.865 128.451)">
+        <path id="Caminho_361" data-name="Caminho 361" d="M15.86,13.5H26.479a2.36,2.36,0,0,1,2.36,2.36V26.479a2.36,2.36,0,0,1-2.36,2.36H15.86a2.36,2.36,0,0,1-2.36-2.36V15.86A2.36,2.36,0,0,1,15.86,13.5Z" transform="translate(-5.241 -5.241)" fill="none" stroke="#777" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Caminho_362" data-name="Caminho 362" d="M6.54,18.338H5.36A2.36,2.36,0,0,1,3,15.979V5.36A2.36,2.36,0,0,1,5.36,3H15.979a2.36,2.36,0,0,1,2.36,2.36V6.54" transform="translate(-3 -3)" fill="none" stroke="#777" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Icon_feather-mouse-pointer" data-name="Icon feather-mouse-pointer" transform="translate(1197.955 341.239)">
+        <path id="Caminho_363" data-name="Caminho 363" d="M4.5,4.5l8.342,20.023L15.8,15.8l8.719-2.961Z" transform="translate(-4.5 -4.5)" fill="none" stroke="#777" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Caminho_364" data-name="Caminho 364" d="M19.5,19.5l7.079,7.079" transform="translate(-7.701 -7.701)" fill="none" stroke="#777" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Icon_feather-pen-tool" data-name="Icon feather-pen-tool" transform="translate(92.307 258.451)">
+        <path id="Caminho_365" data-name="Caminho 365" d="M18,26.259,26.259,18l3.54,3.54L21.54,29.8Z" transform="translate(-6.201 -6.201)" fill="none" stroke="#777" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Caminho_366" data-name="Caminho 366" d="M21.878,15.979,20.108,7.13,3,3,7.13,20.108l8.849,1.77Z" transform="translate(-3 -3)" fill="none" stroke="#777" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Caminho_367" data-name="Caminho 367" d="M3,3l8.951,8.951" transform="translate(-3 -3)" fill="none" stroke="#777" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Caminho_368" data-name="Caminho 368" d="M18.22,15.86a2.36,2.36,0,1,1-2.36-2.36A2.36,2.36,0,0,1,18.22,15.86Z" transform="translate(-5.241 -5.241)" fill="none" stroke="#777" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Icon_feather-user-check" data-name="Icon feather-user-check" transform="translate(171.043 44.451)">
+        <path id="Caminho_369" data-name="Caminho 369" d="M19.2,29.579V27.22a4.72,4.72,0,0,0-4.72-4.72H6.22A4.72,4.72,0,0,0,1.5,27.22v2.36" transform="translate(-1.5 -8.341)" fill="none" stroke="#777" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Caminho_370" data-name="Caminho 370" d="M16.189,9.22A4.72,4.72,0,1,1,11.47,4.5,4.72,4.72,0,0,1,16.189,9.22Z" transform="translate(-2.62 -4.5)" fill="none" stroke="#777" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Caminho_371" data-name="Caminho 371" d="M25.5,15.86l2.36,2.36,4.72-4.72" transform="translate(-6.622 -6.421)" fill="none" stroke="#777" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Icon_feather-smartphone" data-name="Icon feather-smartphone" transform="translate(1151 194.36)">
+        <path id="Caminho_372" data-name="Caminho 372" d="M9.86,3h11.8a2.36,2.36,0,0,1,2.36,2.36V24.238a2.36,2.36,0,0,1-2.36,2.36H9.86a2.36,2.36,0,0,1-2.36-2.36V5.36A2.36,2.36,0,0,1,9.86,3Z" transform="translate(-7.5 -3)" fill="none" stroke="#777" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Caminho_373" data-name="Caminho 373" d="M18,27h0" transform="translate(-9.741 -8.122)" fill="none" stroke="#777" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Icon_feather-clock" data-name="Icon feather-clock" transform="translate(318.219 146)">
+        <path id="Caminho_374" data-name="Caminho 374" d="M26.6,14.8A11.8,11.8,0,1,1,14.8,3,11.8,11.8,0,0,1,26.6,14.8Z" transform="translate(-3 -3)" fill="none" stroke="#777" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Caminho_375" data-name="Caminho 375" d="M18,9v7.079l4.72,2.36" transform="translate(-6.201 -4.28)" fill="none" stroke="#777" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Icon_feather-mail" data-name="Icon feather-mail" transform="translate(1135.917 46.72)">
+        <path id="Caminho_376" data-name="Caminho 376" d="M5.36,6H24.238A2.367,2.367,0,0,1,26.6,8.36V22.518a2.367,2.367,0,0,1-2.36,2.36H5.36A2.367,2.367,0,0,1,3,22.518V8.36A2.367,2.367,0,0,1,5.36,6Z" transform="translate(-3 -6)" fill="none" stroke="#777" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Caminho_377" data-name="Caminho 377" d="M26.6,9,14.8,17.259,3,9" transform="translate(-3 -6.64)" fill="none" stroke="#777" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Icon_ionic-ios-close-circle-outline" data-name="Icon ionic-ios-close-circle-outline" transform="translate(1341.927 297.799)">
+        <path id="Caminho_378" data-name="Caminho 378" d="M23.295,21.705,19.589,18l3.705-3.705a1.124,1.124,0,0,0-1.589-1.589L18,16.411l-3.705-3.705a1.124,1.124,0,0,0-1.589,1.589L16.411,18l-3.705,3.705a1.086,1.086,0,0,0,0,1.589,1.116,1.116,0,0,0,1.589,0L18,19.589l3.705,3.705a1.129,1.129,0,0,0,1.589,0A1.116,1.116,0,0,0,23.295,21.705Z" transform="translate(-2.823 -2.822)" fill="#777"/>
+        <path id="Caminho_379" data-name="Caminho 379" d="M15.175,4.963a10.208,10.208,0,1,1-7.222,2.99,10.144,10.144,0,0,1,7.222-2.99m0-1.588a11.8,11.8,0,1,0,11.8,11.8,11.8,11.8,0,0,0-11.8-11.8Z" fill="#777"/>
+      </g>
+      <g id="Icon_feather-repeat" data-name="Icon feather-repeat" transform="translate(213.377 209.799)">
+        <path id="Caminho_380" data-name="Caminho 380" d="M25.5,1.5l4.25,4.25L25.5,10" transform="translate(-6.126)" fill="none" stroke="#777" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Caminho_381" data-name="Caminho 381" d="M4.5,13.874V11.75A4.25,4.25,0,0,1,8.75,7.5H23.623" transform="translate(0 -1.75)" fill="none" stroke="#777" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Caminho_382" data-name="Caminho 382" d="M8.75,31,4.5,26.75,8.75,22.5" transform="translate(0 -6.126)" fill="none" stroke="#777" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Caminho_383" data-name="Caminho 383" d="M23.623,19.5v2.125a4.25,4.25,0,0,1-4.25,4.25H4.5" transform="translate(0 -5.251)" fill="none" stroke="#777" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <path id="Icon_feather-star" data-name="Icon feather-star" d="M16.126,3l4.056,8.217,9.07,1.326-6.563,6.392,1.549,9.03L16.126,23.7,8.014,27.965l1.549-9.03L3,12.542l9.07-1.326Z" transform="translate(1037.912 318.535)" fill="none" stroke="#767676" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <g id="Icon_feather-archive" data-name="Icon feather-archive" transform="translate(385.67 45.735)">
+        <path id="Caminho_384" data-name="Caminho 384" d="M25.989,12V27.52H4.5V12" transform="translate(-0.612 -1.531)" fill="none" stroke="#767676" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Caminho_385" data-name="Caminho 385" d="M1.5,4.5H27.765v5.969H1.5Z" fill="none" stroke="#767676" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Caminho_386" data-name="Caminho 386" d="M15,18h4.775" transform="translate(-2.755 -2.755)" fill="none" stroke="#767676" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Icon_feather-award" data-name="Icon feather-award" transform="translate(370.661 322.98)">
+        <path id="Caminho_387" data-name="Caminho 387" d="M24.837,10.169A8.669,8.669,0,1,1,16.169,1.5a8.669,8.669,0,0,1,8.669,8.669Z" fill="none" stroke="#767676" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Caminho_388" data-name="Caminho 388" d="M12,20.832,10.5,32.114,16.692,28.4l6.192,3.715-1.5-11.294" transform="translate(-0.523 -3.37)" fill="none" stroke="#767676" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Icon_feather-calendar" data-name="Icon feather-calendar" transform="translate(1035.988 99.534)">
+        <path id="Caminho_389" data-name="Caminho 389" d="M7.066,6H25.03A2.566,2.566,0,0,1,27.6,8.566V26.53A2.566,2.566,0,0,1,25.03,29.1H7.066A2.566,2.566,0,0,1,4.5,26.53V8.566A2.566,2.566,0,0,1,7.066,6Z" transform="translate(0 -0.434)" fill="none" stroke="#767676" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Caminho_390" data-name="Caminho 390" d="M24,3V8.132" transform="translate(-2.82 0)" fill="none" stroke="#767676" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Caminho_391" data-name="Caminho 391" d="M12,3V8.132" transform="translate(-1.085 0)" fill="none" stroke="#767676" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Caminho_392" data-name="Caminho 392" d="M4.5,15H27.6" transform="translate(0 -1.735)" fill="none" stroke="#767676" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

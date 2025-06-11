@@ -1,0 +1,23 @@
+{
+  "name": "yeti-bootstrap",
+  "version": "2.0.5",
+  "description": "Framework da yeti lab.",
+  "author": "yeti lab <yeti@yetilab.net>",
+  "homepage": "https://yetilab.net",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.1.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "jshint": "^2.11.0"
+  }
+}
